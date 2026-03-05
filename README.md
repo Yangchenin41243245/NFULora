@@ -66,7 +66,7 @@ npm -v
 
 Android build 需要 **Java**。
 
-建議使用 **JDK 17**
+建議使用 **JDK 17 或以上**
 
 ## 下載
 
