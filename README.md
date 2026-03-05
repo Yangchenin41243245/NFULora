@@ -212,7 +212,7 @@ npm install
 
 ---
 
-# 9 安裝 React Native BLE 套件 (如果專案需要)
+# 9 安裝 React Native 新套件 (如果專案需要)
 
 例如 BLE library：
 
