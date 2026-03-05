@@ -327,7 +327,7 @@ npx react-native run-android
 
 ---
 
-# 11 開啟 Android 專案 (Android Studio)
+# 12 開啟 Android 專案 (Android Studio)
 
 若需要修改 Android 原生設定：
 
@@ -346,25 +346,6 @@ project/android
 
 Android Studio 會自動同步 Gradle。
 
----
-
-# 12 常見問題
-
-## SDK location not found
-
-在
-
-```
-android/local.properties
-```
-
-加入：
-
-```
-sdk.dir=C:\\Users\\你的帳號\\AppData\\Local\\Android\\Sdk
-```
-
----
 
 # 13 React Native 開發流程
 
