@@ -307,6 +307,7 @@ Finish
 
 ```bash
 npx react-native start
+```
 
 ## 11.2 建置並執行 Android App
 
