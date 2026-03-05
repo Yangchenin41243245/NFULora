@@ -243,15 +243,11 @@ Tools
 
 Device Manager
 
----
-
 ## 10.2 建立新模擬器
 
 點擊：
 
 Create Device
-
----
 
 ## 10.3 選擇裝置
 
@@ -264,8 +260,6 @@ Pixel 5
 點擊：
 
 Next
-
----
 
 ## 10.4 選擇 Android 系統映像
 
@@ -287,8 +281,6 @@ Download
 
 Next
 
----
-
 ## 10.5 完成模擬器建立
 
 確認設定後點擊：
@@ -296,8 +288,6 @@ Next
 Finish
 
 此時 Device Manager 會出現新的模擬器。
-
----
 
 ## 10.6 啟動模擬器
 
