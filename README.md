@@ -224,17 +224,101 @@ BLE 套件通常需要重新 build。
 
 ---
 
-# 10 啟動 React Native 專案
+# 10 建立 Android 模擬器 (Android Virtual Device)
 
-## 啟動 Metro
+在執行 React Native 專案前，建議先建立 Android 模擬器。
 
-```bash
-npx react-native start
-```
+Android 模擬器由 **Android Studio** 內建的 **AVD (Android Virtual Device)** 提供。
+
+## 10.1 開啟 Device Manager
+
+開啟 Android Studio
+
+選擇：
+
+Tools  
+→ Device Manager
+
+或在主畫面點擊：
+
+Device Manager
 
 ---
 
-## 建置並執行 Android App
+## 10.2 建立新模擬器
+
+點擊：
+
+Create Device
+
+---
+
+## 10.3 選擇裝置
+
+建議選擇：
+
+Pixel 6  
+或  
+Pixel 5
+
+點擊：
+
+Next
+
+---
+
+## 10.4 選擇 Android 系統映像
+
+若尚未下載，需要先下載。
+
+建議版本：
+
+Android 13 (API 33)
+
+或
+
+Android 14 (API 34)
+
+點擊：
+
+Download
+
+下載完成後按：
+
+Next
+
+---
+
+## 10.5 完成模擬器建立
+
+確認設定後點擊：
+
+Finish
+
+此時 Device Manager 會出現新的模擬器。
+
+---
+
+## 10.6 啟動模擬器
+
+在 Device Manager 中點擊：
+
+▶ (Play 按鈕)
+
+模擬器會啟動 Android 系統。
+
+---
+
+# 11 啟動 React Native 專案
+
+當模擬器啟動後，即可執行 React Native 專案。
+
+## 11.1 啟動 Metro Server
+
+```bash
+npx react-native start
+
+## 11.2 建置並執行 Android App
 
 開另一個 terminal：
 
